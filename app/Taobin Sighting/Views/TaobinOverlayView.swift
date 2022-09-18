@@ -44,5 +44,6 @@ struct TaobinOverlayView: View {
     }
     .padding()
     .padding(.top, 6)
+    .presentationDetents([.height(200), .medium])
   }
 }

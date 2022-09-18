@@ -8,5 +8,5 @@
 import Foundation
 
 public struct Config {
-  public static var apiUrl: String = "https://c6ca-49-228-104-186.ap.ngrok.io/api"
+  public static var apiUrl: String = "https://taobin-sighting.vercel.app/api"
 }

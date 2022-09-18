@@ -49,29 +49,29 @@ struct ContentView: View {
             }
         }
       }
-        .onChange(of: mapRegion, debounceTime: 0.4) { newRegion in
-          print(">>> \(newRegion.center.latitude)")
-          taobinHandler.fetchTaobin(region: newRegion)
-        }
-        .onAppear {
-          mapLocationHandler.checkIfLocationServicesEnabled()
-        }
-        .ignoresSafeArea()
+      .onAppear {
+        mapLocationHandler.checkIfLocationServicesEnabled()
+      }
+      .ignoresSafeArea()
       Button {} label: {
         HStack {
           Image(systemName: "line.3.horizontal.decrease.circle.fill")
           Text("Filter").font(.headline).bold().textCase(.uppercase)
         }
       }
-        .buttonStyle(.borderedProminent)
-        .cornerRadius(8)
-        .tint(.white)
-        .foregroundColor(.black)
-        .frame(maxWidth: .infinity, alignment: .topTrailing)
-        .padding(.trailing, 16)
-    }.sheet(isPresented: $presentSheet) {
+      .buttonStyle(.borderedProminent)
+      .cornerRadius(8)
+      .tint(.white)
+      .foregroundColor(.black)
+      .frame(maxWidth: .infinity, alignment: .topTrailing)
+      .padding(.trailing, 16)
+    }
+    .onChange(of: mapRegion, debounceTime: 0.4) { newRegion in
+      print(">>> \(newRegion.center.latitude)")
+      taobinHandler.fetchTaobin(region: newRegion)
+    }
+    .sheet(isPresented: $presentSheet) {
       TaobinOverlayView(machine: $selectedMachine)
-        .presentationDetents([.height(200), .medium])
     }
   }
 }

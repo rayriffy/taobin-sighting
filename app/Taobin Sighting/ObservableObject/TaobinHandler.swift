@@ -30,7 +30,11 @@ public class TaobinHandler: ObservableObject {
     ).responseDecodable(of: APIResponseWithData<[TaobinDetail]>.self) { response in
       switch response.result {
       case .success(let apiLocateResponse):
-        self.taobinMachines = apiLocateResponse.data
+        self.taobinMachines.append(
+          contentsOf: apiLocateResponse.data.filter { apiItem in
+            return !self.taobinMachines.contains(where: { $0.id == apiItem.id })
+          }
+        )
         self.dataRequestTemp = nil
         break
       case .failure(let error):
