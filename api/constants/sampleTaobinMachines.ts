@@ -65,5 +65,57 @@ export const sampleTaobinMachines: TaobinDetail[] = [
         lon: 100.32758682625187,
       },
     },
-  },  
+  },
+  {
+    id: 5,
+    name: 'MBK',
+    features: ['indoor'],
+    imageUrl: '',
+    location: {
+      locateGuide: '6fl, Food court near glass elevator',
+      geo: {
+        lat: 13.745878011294685,
+        lon: 100.52993685669199,
+      },
+    },
+  },
+  {
+    id: 6,
+    name: 'MBK',
+    features: ['indoor'],
+    imageUrl: '',
+    location: {
+      locateGuide: '6fl, Food court near office building elevator',
+      geo: {
+        lat: 13.74531115777921,
+        lon: 100.52981638460427,
+      },
+    },
+  },
+  {
+    id: 7,
+    name: 'BTS Siam',
+    features: ['outdoor'],
+    imageUrl: '',
+    location: {
+      locateGuide: "BTS Exit 6, there're 2 machines",
+      geo: {
+        lat: 13.745440800796842,
+        lon: 100.53508788647616,
+      },
+    },
+  },
+  {
+    id: 8,
+    name: 'Central World',
+    features: ['outdoor'],
+    imageUrl: '',
+    location: {
+      locateGuide: "Near Apple Store",
+      geo: {
+        lat: 13.745676561584435,
+        lon: 100.53982681232519
+      },
+    },
+  },
 ]
