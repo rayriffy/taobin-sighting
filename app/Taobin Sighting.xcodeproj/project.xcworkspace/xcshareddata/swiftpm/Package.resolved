@@ -1,0 +1,32 @@
+{
+  "pins" : [
+    {
+      "identity" : "alamofire",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Alamofire/Alamofire.git",
+      "state" : {
+        "branch" : "master",
+        "revision" : "8dd85aee02e39dd280c75eef88ffdb86eed4b07b"
+      }
+    },
+    {
+      "identity" : "debouncedonchange",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Tunous/DebouncedOnChange.git",
+      "state" : {
+        "revision" : "27070b63575c06ba91678a026459c528c18d0cb1",
+        "version" : "1.0.1"
+      }
+    },
+    {
+      "identity" : "swiftui-tailwind-color",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/rayriffy/swiftui-tailwind-color.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "187bce425654851fef1b48b62abee7e1874b8562"
+      }
+    }
+  ],
+  "version" : 2
+}

@@ -11,6 +11,19 @@
 		F207137928D7477A00E74EC8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F207137828D7477A00E74EC8 /* ContentView.swift */; };
 		F207137B28D7477B00E74EC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F207137A28D7477B00E74EC8 /* Assets.xcassets */; };
 		F207137F28D7477B00E74EC8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F207137E28D7477B00E74EC8 /* Preview Assets.xcassets */; };
+		F246DDC428D75B4F00113905 /* MKCoordinateRegion.swift in Sources */ = {isa = PBXBuildFile; fileRef = F246DDC328D75B4F00113905 /* MKCoordinateRegion.swift */; };
+		F246DDC728D75C6100113905 /* DebouncedOnChange in Frameworks */ = {isa = PBXBuildFile; productRef = F246DDC628D75C6100113905 /* DebouncedOnChange */; };
+		F246DDCA28D75DF200113905 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = F246DDC928D75DF200113905 /* Alamofire */; };
+		F246DDCD28D75E4500113905 /* TaobinHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F246DDCC28D75E4500113905 /* TaobinHandler.swift */; };
+		F246DDD028D75E7100113905 /* TaobinDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = F246DDCF28D75E7100113905 /* TaobinDetail.swift */; };
+		F246DDD228D75EB900113905 /* TaobinLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F246DDD128D75EB900113905 /* TaobinLocation.swift */; };
+		F246DDD628D7622C00113905 /* URL.swift in Sources */ = {isa = PBXBuildFile; fileRef = F246DDD528D7622C00113905 /* URL.swift */; };
+		F246DDD928D7630E00113905 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = F246DDD828D7630E00113905 /* Config.swift */; };
+		F246DDDB28D7648400113905 /* APIResponseWithData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F246DDDA28D7648400113905 /* APIResponseWithData.swift */; };
+		F246DDDD28D7689300113905 /* MapLocationHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F246DDDC28D7689300113905 /* MapLocationHandler.swift */; };
+		F246DDE028D7771900113905 /* TailwindColor in Frameworks */ = {isa = PBXBuildFile; productRef = F246DDDF28D7771900113905 /* TailwindColor */; };
+		F246DDE328D77B1C00113905 /* TaobinOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F246DDE228D77B1C00113905 /* TaobinOverlayView.swift */; };
+		F246DDE628D77D3100113905 /* TaobinFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = F246DDE528D77D3100113905 /* TaobinFeature.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +33,16 @@
 		F207137A28D7477B00E74EC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F207137C28D7477B00E74EC8 /* Taobin_Sighting.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Taobin_Sighting.entitlements; sourceTree = "<group>"; };
 		F207137E28D7477B00E74EC8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F246DDC328D75B4F00113905 /* MKCoordinateRegion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MKCoordinateRegion.swift; sourceTree = "<group>"; };
+		F246DDCC28D75E4500113905 /* TaobinHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaobinHandler.swift; sourceTree = "<group>"; };
+		F246DDCF28D75E7100113905 /* TaobinDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaobinDetail.swift; sourceTree = "<group>"; };
+		F246DDD128D75EB900113905 /* TaobinLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaobinLocation.swift; sourceTree = "<group>"; };
+		F246DDD528D7622C00113905 /* URL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URL.swift; sourceTree = "<group>"; };
+		F246DDD828D7630E00113905 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		F246DDDA28D7648400113905 /* APIResponseWithData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIResponseWithData.swift; sourceTree = "<group>"; };
+		F246DDDC28D7689300113905 /* MapLocationHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapLocationHandler.swift; sourceTree = "<group>"; };
+		F246DDE228D77B1C00113905 /* TaobinOverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaobinOverlayView.swift; sourceTree = "<group>"; };
+		F246DDE528D77D3100113905 /* TaobinFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaobinFeature.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +50,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F246DDC728D75C6100113905 /* DebouncedOnChange in Frameworks */,
+				F246DDE028D7771900113905 /* TailwindColor in Frameworks */,
+				F246DDCA28D75DF200113905 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,6 +78,11 @@
 		F207137528D7477A00E74EC8 /* Taobin Sighting */ = {
 			isa = PBXGroup;
 			children = (
+				F246DDE428D77D0800113905 /* Components */,
+				F246DDE128D77B0B00113905 /* Views */,
+				F246DDD728D7630500113905 /* Constants */,
+				F246DDCB28D75E3500113905 /* ObservableObject */,
+				F246DDC228D75B4100113905 /* Extensions */,
 				F207138528D7489A00E74EC8 /* Codables */,
 				F207137628D7477A00E74EC8 /* App.swift */,
 				F207137828D7477A00E74EC8 /* ContentView.swift */,
@@ -73,8 +104,53 @@
 		F207138528D7489A00E74EC8 /* Codables */ = {
 			isa = PBXGroup;
 			children = (
+				F246DDCF28D75E7100113905 /* TaobinDetail.swift */,
+				F246DDD128D75EB900113905 /* TaobinLocation.swift */,
+				F246DDDA28D7648400113905 /* APIResponseWithData.swift */,
 			);
 			path = Codables;
+			sourceTree = "<group>";
+		};
+		F246DDC228D75B4100113905 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F246DDC328D75B4F00113905 /* MKCoordinateRegion.swift */,
+				F246DDD528D7622C00113905 /* URL.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F246DDCB28D75E3500113905 /* ObservableObject */ = {
+			isa = PBXGroup;
+			children = (
+				F246DDCC28D75E4500113905 /* TaobinHandler.swift */,
+				F246DDDC28D7689300113905 /* MapLocationHandler.swift */,
+			);
+			path = ObservableObject;
+			sourceTree = "<group>";
+		};
+		F246DDD728D7630500113905 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				F246DDD828D7630E00113905 /* Config.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		F246DDE128D77B0B00113905 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F246DDE228D77B1C00113905 /* TaobinOverlayView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F246DDE428D77D0800113905 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				F246DDE528D77D3100113905 /* TaobinFeature.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -93,6 +169,11 @@
 			dependencies = (
 			);
 			name = "Taobin Sighting";
+			packageProductDependencies = (
+				F246DDC628D75C6100113905 /* DebouncedOnChange */,
+				F246DDC928D75DF200113905 /* Alamofire */,
+				F246DDDF28D7771900113905 /* TailwindColor */,
+			);
 			productName = "Taobin Sighting";
 			productReference = F207137328D7477A00E74EC8 /* Taobin Sighting.app */;
 			productType = "com.apple.product-type.application";
@@ -121,6 +202,11 @@
 				Base,
 			);
 			mainGroup = F207136A28D7477A00E74EC8;
+			packageReferences = (
+				F246DDC528D75C6100113905 /* XCRemoteSwiftPackageReference "DebouncedOnChange" */,
+				F246DDC828D75DF200113905 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				F246DDDE28D7771900113905 /* XCRemoteSwiftPackageReference "swiftui-tailwind-color" */,
+			);
 			productRefGroup = F207137428D7477A00E74EC8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -147,8 +233,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F246DDDD28D7689300113905 /* MapLocationHandler.swift in Sources */,
 				F207137928D7477A00E74EC8 /* ContentView.swift in Sources */,
+				F246DDCD28D75E4500113905 /* TaobinHandler.swift in Sources */,
+				F246DDD928D7630E00113905 /* Config.swift in Sources */,
+				F246DDE628D77D3100113905 /* TaobinFeature.swift in Sources */,
+				F246DDD028D75E7100113905 /* TaobinDetail.swift in Sources */,
+				F246DDDB28D7648400113905 /* APIResponseWithData.swift in Sources */,
+				F246DDD228D75EB900113905 /* TaobinLocation.swift in Sources */,
 				F207137728D7477A00E74EC8 /* App.swift in Sources */,
+				F246DDE328D77B1C00113905 /* TaobinOverlayView.swift in Sources */,
+				F246DDC428D75B4F00113905 /* MKCoordinateRegion.swift in Sources */,
+				F246DDD628D7622C00113905 /* URL.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +373,8 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Locate user to pinpoint relative position to nearest Taobin machine";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -295,10 +393,12 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.rayriffy.Taobin-Sighting";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -315,6 +415,8 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Locate user to pinpoint relative position to nearest Taobin machine";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -333,10 +435,12 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.rayriffy.Taobin-Sighting";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -362,6 +466,51 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F246DDC528D75C6100113905 /* XCRemoteSwiftPackageReference "DebouncedOnChange" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Tunous/DebouncedOnChange.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		F246DDC828D75DF200113905 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		F246DDDE28D7771900113905 /* XCRemoteSwiftPackageReference "swiftui-tailwind-color" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/rayriffy/swiftui-tailwind-color.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F246DDC628D75C6100113905 /* DebouncedOnChange */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F246DDC528D75C6100113905 /* XCRemoteSwiftPackageReference "DebouncedOnChange" */;
+			productName = DebouncedOnChange;
+		};
+		F246DDC928D75DF200113905 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F246DDC828D75DF200113905 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		F246DDDF28D7771900113905 /* TailwindColor */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F246DDDE28D7771900113905 /* XCRemoteSwiftPackageReference "swiftui-tailwind-color" */;
+			productName = TailwindColor;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F207136B28D7477A00E74EC8 /* Project object */;
 }
